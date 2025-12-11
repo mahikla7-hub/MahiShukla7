@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head> 
+<body bgcolor="#D1C3F3"> 
+ 
+    <h1 align="center">ABES ENGINEERING COLLEGE</h1>
+    <h1 align="center">Student Registration Form</h1>
+    <img align="left" src="https://college4u.in/wp-content/uploads/2018/03/abes.png" height="100" width="100">
+  <p align="center">
+    Fill out the form to apply for the training courses.You can consider your
+        application accepted after you receive a confirmation email.
+  </p>
+<hr> 
+ 
+    <!-- Registration Form --> 
+    <form method="post" action="submit.html"> 
+ 
+        <!-- Full Name --> 
+        <p align="center"> 
+            <label>Full Name: </label> 
+            <input type="text" name="fullname" placeholder="Enter your full name" required> 
+        </p> 
+ 
+        <!-- Email with validation --> 
+        <p align="center"> 
+            <label>Email: </label> 
+            <input type="email" name="email" placeholder="Enter valid email address" required> 
+        </p> 
+ 
+        <!-- Password --> 
+        <p align="center"> 
+            <label>Password: </label> 
+            <input type="password" name="password" placeholder="Enter password" required> 
+        </p> 
+ 
+        <!-- Gender (Radio Buttons) --> 
+        <p align="center"> 
+            <label>Gender: </label> 
+            <input type="radio" name="gender" value="male" required> Male 
+            <input type="radio" name="gender" value="female"> Female 
+         
+        </p> 
+ 
+        <!-- Course Selection (Dropdown) --> 
+        <p align="center"> 
+            <label>Course: </label> 
+            <select name="course" required> 
+                <option value="">-- Select Course --</option> 
+                <option value="btech">B.Tech</option> 
+                <option value="bca">BCA</option> 
+                <option value="mba">MBA</option> 
+                <option value="mca">MCA</option> 
+            </select> 
+        </p> 
+ 
+        <!-- Contact Number --> 
+        <p align="center"> 
+            <label>Contact No: </label> 
+            <input type="tel" name="contact" placeholder="Enter phone number" required> 
+        </p> 
+ 
+        <!-- Address (Textarea) --> 
+        <p align="center"> 
+            <label>Address: </label><br> 
+            <textarea name="address" rows="4" cols="40" placeholder="Enter your address" required></textarea> 
+        </p> 
+ 
+        <!-- Submit and Reset --> 
+        <p align="center"> 
+            <input type="submit" value="Register"> 
+            <input type="reset" value="Clear"> 
+        </p> 
+    </form> 
+ 
+    <hr> 
+    <p align="center">&copy; 2025 Student Registration Portal</p> 
+ 
+</body> 
+</html> 
